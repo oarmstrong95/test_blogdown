@@ -46,6 +46,8 @@ At its core, our brownlow medal model makes a probabilistic forecast of how many
 
 <p>
 
+    ## Warning: The `.dots` argument of `group_by()` is deprecated as of dplyr 1.0.0.
+
 <style>@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   font-family: Chivo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
@@ -386,10 +388,10 @@ html {
 <div id="hxkzmjokeq" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
-      <th colspan="6" class="gt_heading gt_title gt_font_normal" style>Top 20 Brownlow Medal Pollers 2020</th>
+      <th colspan="6" class="gt_heading gt_title gt_font_normal" style>2020 Brownlow Medal Predictions</th>
     </tr>
     <tr>
-      <th colspan="6" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style>Predicted votes are added up for each player for each game to give a total across the season</th>
+      <th colspan="6" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style>The top 15 players are shown - their predicted votes have been added up for for each game to give a total across the season</th>
     </tr>
   </thead>
   <thead class="gt_col_headings">
@@ -403,8 +405,8 @@ html {
       <th class="gt_col_heading gt_center gt_columns_bottom_border" rowspan="2" colspan="1">Total Predicted Votes</th>
     </tr>
     <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">Average Disposals<sup class="gt_footnote_marks">1</sup></th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">Average Supercoach<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">Average Disposals</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">Average Supercoach</th>
     </tr>
   </thead>
   <tbody class="gt_table_body">
@@ -422,7 +424,7 @@ html {
       <td class="gt_row gt_left">Port Adelaide</td>
       <td class="gt_row gt_right">43&percnt;</td>
       <td class="gt_row gt_right">51&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #8DD6DB; color: #000000;">22</td>
+      <td class="gt_row gt_right" style="background-color: #95D9DD; color: #000000;">22</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Christian Petracca</td>
@@ -430,7 +432,7 @@ html {
       <td class="gt_row gt_left">Melbourne</td>
       <td class="gt_row gt_right">44&percnt;</td>
       <td class="gt_row gt_right">54&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #ACE0E4; color: #000000;">19</td>
+      <td class="gt_row gt_right" style="background-color: #B7E4E7; color: #000000;">19</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Jack Macrae</td>
@@ -438,7 +440,7 @@ html {
       <td class="gt_row gt_left">Western Bulldogs</td>
       <td class="gt_row gt_right">50&percnt;</td>
       <td class="gt_row gt_right">56&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #BFE7EA; color: #000000;">17</td>
+      <td class="gt_row gt_right" style="background-color: #CCECEE; color: #000000;">17</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Zach Merrett</td>
@@ -446,7 +448,7 @@ html {
       <td class="gt_row gt_left">Essendon</td>
       <td class="gt_row gt_right">49&percnt;</td>
       <td class="gt_row gt_right">54&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #BFE7EA; color: #000000;">17</td>
+      <td class="gt_row gt_right" style="background-color: #CCECEE; color: #000000;">17</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Marcus Bontempelli</td>
@@ -454,7 +456,7 @@ html {
       <td class="gt_row gt_left">Western Bulldogs</td>
       <td class="gt_row gt_right">39&percnt;</td>
       <td class="gt_row gt_right">54&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #C8EBED; color: #000000;">16</td>
+      <td class="gt_row gt_right" style="background-color: #D6F0F1; color: #000000;">16</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Jack Steele</td>
@@ -462,7 +464,7 @@ html {
       <td class="gt_row gt_left">St Kilda</td>
       <td class="gt_row gt_right">41&percnt;</td>
       <td class="gt_row gt_right">57&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #C8EBED; color: #000000;">16</td>
+      <td class="gt_row gt_right" style="background-color: #D6F0F1; color: #000000;">16</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Patrick Dangerfield</td>
@@ -470,7 +472,7 @@ html {
       <td class="gt_row gt_left">Geelong</td>
       <td class="gt_row gt_right">40&percnt;</td>
       <td class="gt_row gt_right">53&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #D2EEF0; color: #000000;">15</td>
+      <td class="gt_row gt_right" style="background-color: #E1F4F5; color: #000000;">15</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Dustin Martin</td>
@@ -478,7 +480,7 @@ html {
       <td class="gt_row gt_left">Richmond</td>
       <td class="gt_row gt_right">38&percnt;</td>
       <td class="gt_row gt_right">47&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #DBF1F3; color: #000000;">14</td>
+      <td class="gt_row gt_right" style="background-color: #EBF7F8; color: #000000;">14</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Luke Parker</td>
@@ -486,7 +488,7 @@ html {
       <td class="gt_row gt_left">Sydney</td>
       <td class="gt_row gt_right">41&percnt;</td>
       <td class="gt_row gt_right">49&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #DBF1F3; color: #000000;">14</td>
+      <td class="gt_row gt_right" style="background-color: #EBF7F8; color: #000000;">14</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Taylor Adams</td>
@@ -494,7 +496,7 @@ html {
       <td class="gt_row gt_left">Collingwood</td>
       <td class="gt_row gt_right">42&percnt;</td>
       <td class="gt_row gt_right">51&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #DBF1F3; color: #000000;">14</td>
+      <td class="gt_row gt_right" style="background-color: #EBF7F8; color: #000000;">14</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Lachie Whitfield</td>
@@ -502,7 +504,7 @@ html {
       <td class="gt_row gt_left">Greater Western Sydney</td>
       <td class="gt_row gt_right">42&percnt;</td>
       <td class="gt_row gt_right">49&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #DBF1F3; color: #000000;">14</td>
+      <td class="gt_row gt_right" style="background-color: #EBF7F8; color: #000000;">14</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Cameron Guthrie</td>
@@ -510,7 +512,7 @@ html {
       <td class="gt_row gt_left">Geelong</td>
       <td class="gt_row gt_right">41&percnt;</td>
       <td class="gt_row gt_right">48&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #E4F5F6; color: #000000;">13</td>
+      <td class="gt_row gt_right" style="background-color: #F5FBFC; color: #000000;">13</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">Josh Kelly</td>
@@ -518,116 +520,23 @@ html {
       <td class="gt_row gt_left">Greater Western Sydney</td>
       <td class="gt_row gt_right">41&percnt;</td>
       <td class="gt_row gt_right">53&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #EDF8F9; color: #000000;">12</td>
+      <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000;">12</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left">Zak Jones</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/5/58/St_Kilda_FC_logo.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">St Kilda</td>
-      <td class="gt_row gt_right">36&percnt;</td>
-      <td class="gt_row gt_right">43&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #EDF8F9; color: #000000;">12</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">Scott Pendlebury</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Collingwood_Football_Club_Logo_%282017%E2%80%93present%29.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">Collingwood</td>
-      <td class="gt_row gt_right">46&percnt;</td>
-      <td class="gt_row gt_right">51&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #F6FCFC; color: #000000;">11</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">Nic Naitanui</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/West_Coast_Eagles_logo_2017.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">West Coast</td>
-      <td class="gt_row gt_right">20&percnt;</td>
-      <td class="gt_row gt_right">51&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #F6FCFC; color: #000000;">11</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">Ollie Wines</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/3/36/Port_Adelaide_Football_Club_logo.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">Port Adelaide</td>
-      <td class="gt_row gt_right">40&percnt;</td>
-      <td class="gt_row gt_right">49&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #F6FCFC; color: #000000;">11</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">David Mundy</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Fremantle_FC_logo.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">Fremantle</td>
-      <td class="gt_row gt_right">34&percnt;</td>
-      <td class="gt_row gt_right">44&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000;">10</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">Tom Hawkins</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Geelong_Cats_logo.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">Geelong</td>
-      <td class="gt_row gt_right">23&percnt;</td>
-      <td class="gt_row gt_right">49&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000;">10</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">Tom Rockliff</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/3/36/Port_Adelaide_Football_Club_logo.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">Port Adelaide</td>
-      <td class="gt_row gt_right">43&percnt;</td>
-      <td class="gt_row gt_right">50&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000;">10</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">Mitch Duncan</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Geelong_Cats_logo.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">Geelong</td>
-      <td class="gt_row gt_right">36&percnt;</td>
-      <td class="gt_row gt_right">48&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000;">10</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">Nat Fyfe</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Fremantle_FC_logo.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">Fremantle</td>
-      <td class="gt_row gt_right">40&percnt;</td>
-      <td class="gt_row gt_right">53&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000;">10</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">Clayton Oliver</td>
-      <td class="gt_row gt_left"><img src="https://upload.wikimedia.org/wikipedia/en/4/4e/Melbournefc.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left">Melbourne</td>
-      <td class="gt_row gt_right">46&percnt;</td>
-      <td class="gt_row gt_right">57&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000;">10</td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Andrew Brayshaw</td>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Fremantle_FC_logo.svg" style="height:25px;"></td>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Fremantle</td>
-      <td class="gt_row gt_right" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">37&percnt;</td>
-      <td class="gt_row gt_right" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">47&percnt;</td>
-      <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">10</td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Zak Jones</td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/5/58/St_Kilda_FC_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">St Kilda</td>
+      <td class="gt_row gt_right" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">36&percnt;</td>
+      <td class="gt_row gt_right" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">43&percnt;</td>
+      <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">12</td>
     </tr>
   </tbody>
   <tfoot class="gt_sourcenotes">
     <tr>
-      <td class="gt_sourcenote" colspan="6"><strong>Data</strong>: fitzroy | <strong>Table:</strong> @oarmstrong95</td>
+      <td class="gt_sourcenote" colspan="6"><strong>Data</strong>: fitzroy | <strong>Table</strong>: @oarmstrong95</td>
     </tr>
   </tfoot>
-  <tfoot>
-    <tr class="gt_footnotes">
-      <td colspan="6">
-        <p class="gt_footnote">
-          <sup class="gt_footnote_marks">
-            <em>1</em>
-          </sup>
-           
-          Note: percentile average per game.
-          <br />
-        </p>
-      </td>
-    </tr>
-  </tfoot>
+  
 </table></div>
 
 </p>
@@ -638,7 +547,9 @@ html {
 
 <p>
 
-### Round 1 2020
+## Round 1 2020
+
+-----
 
 <div class="row">
 
@@ -655,13 +566,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
   width: auto;
   border-top-style: solid;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-top-color: transparent;
   border-right-style: none;
   border-right-width: 2px;
@@ -688,7 +599,7 @@ html {
 
 #vlxbdgsake .gt_title {
   color: #333333;
-  font-size: 125%;
+  font-size: 12px;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -699,7 +610,7 @@ html {
 #vlxbdgsake .gt_subtitle {
   color: #333333;
   font-size: 10px;
-  font-weight: initial;
+  font-weight: lighter;
   padding-top: 0;
   padding-bottom: 4px;
   border-top-color: #FFFFFF;
@@ -717,8 +628,8 @@ html {
   border-top-width: 3px;
   border-top-color: transparent;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   border-left-style: none;
   border-left-width: 1px;
   border-left-color: #D3D3D3;
@@ -769,8 +680,8 @@ html {
 
 #vlxbdgsake .gt_column_spanner {
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   vertical-align: bottom;
   padding-top: 5px;
   padding-bottom: 6px;
@@ -943,7 +854,7 @@ html {
 }
 
 #vlxbdgsake .gt_sourcenote {
-  font-size: 12px;
+  font-size: 90%;
   padding: 4px;
 }
 
@@ -999,17 +910,17 @@ html {
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/35/Richmond_Tigers_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/35/Richmond_Tigers_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Dion Prestia</td>
       <td class="gt_row gt_right" style="background-color: #80DF7C; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">3</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/5/58/Carlton_FC_Logo_2020.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/5/58/Carlton_FC_Logo_2020.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Patrick Cripps</td>
       <td class="gt_row gt_right" style="background-color: #C3F0BD; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">2</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/35/Richmond_Tigers_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/35/Richmond_Tigers_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Dustin Martin</td>
       <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">1</td>
     </tr>
@@ -1033,13 +944,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
   width: auto;
   border-top-style: solid;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-top-color: transparent;
   border-right-style: none;
   border-right-width: 2px;
@@ -1066,7 +977,7 @@ html {
 
 #zyspnprboy .gt_title {
   color: #333333;
-  font-size: 125%;
+  font-size: 12px;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1077,7 +988,7 @@ html {
 #zyspnprboy .gt_subtitle {
   color: #333333;
   font-size: 10px;
-  font-weight: initial;
+  font-weight: lighter;
   padding-top: 0;
   padding-bottom: 4px;
   border-top-color: #FFFFFF;
@@ -1095,8 +1006,8 @@ html {
   border-top-width: 3px;
   border-top-color: transparent;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   border-left-style: none;
   border-left-width: 1px;
   border-left-color: #D3D3D3;
@@ -1147,8 +1058,8 @@ html {
 
 #zyspnprboy .gt_column_spanner {
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   vertical-align: bottom;
   padding-top: 5px;
   padding-bottom: 6px;
@@ -1321,7 +1232,7 @@ html {
 }
 
 #zyspnprboy .gt_sourcenote {
-  font-size: 12px;
+  font-size: 90%;
   padding: 4px;
 }
 
@@ -1377,17 +1288,17 @@ html {
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Collingwood_Football_Club_Logo_%282017%E2%80%93present%29.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Collingwood_Football_Club_Logo_%282017%E2%80%93present%29.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Brodie Grundy</td>
       <td class="gt_row gt_right" style="background-color: #80DF7C; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">3</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Collingwood_Football_Club_Logo_%282017%E2%80%93present%29.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Collingwood_Football_Club_Logo_%282017%E2%80%93present%29.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Scott Pendlebury</td>
       <td class="gt_row gt_right" style="background-color: #C3F0BD; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">2</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Collingwood_Football_Club_Logo_%282017%E2%80%93present%29.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Collingwood_Football_Club_Logo_%282017%E2%80%93present%29.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Taylor Adams</td>
       <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">1</td>
     </tr>
@@ -1411,13 +1322,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
   width: auto;
   border-top-style: solid;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-top-color: transparent;
   border-right-style: none;
   border-right-width: 2px;
@@ -1444,7 +1355,7 @@ html {
 
 #vjlwhygxbn .gt_title {
   color: #333333;
-  font-size: 125%;
+  font-size: 12px;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1455,7 +1366,7 @@ html {
 #vjlwhygxbn .gt_subtitle {
   color: #333333;
   font-size: 10px;
-  font-weight: initial;
+  font-weight: lighter;
   padding-top: 0;
   padding-bottom: 4px;
   border-top-color: #FFFFFF;
@@ -1473,8 +1384,8 @@ html {
   border-top-width: 3px;
   border-top-color: transparent;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   border-left-style: none;
   border-left-width: 1px;
   border-left-color: #D3D3D3;
@@ -1525,8 +1436,8 @@ html {
 
 #vjlwhygxbn .gt_column_spanner {
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   vertical-align: bottom;
   padding-top: 5px;
   padding-bottom: 6px;
@@ -1699,7 +1610,7 @@ html {
 }
 
 #vjlwhygxbn .gt_sourcenote {
-  font-size: 12px;
+  font-size: 90%;
   padding: 4px;
 }
 
@@ -1755,17 +1666,17 @@ html {
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/8/8b/Essendon_FC_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/8/8b/Essendon_FC_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Dylan Shiel</td>
       <td class="gt_row gt_right" style="background-color: #80DF7C; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">3</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Fremantle_FC_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Fremantle_FC_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Rory Lobb</td>
       <td class="gt_row gt_right" style="background-color: #C3F0BD; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">2</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/8/8b/Essendon_FC_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/8/8b/Essendon_FC_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Adam Saad</td>
       <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">1</td>
     </tr>
@@ -1793,13 +1704,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
   width: auto;
   border-top-style: solid;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-top-color: transparent;
   border-right-style: none;
   border-right-width: 2px;
@@ -1826,7 +1737,7 @@ html {
 
 #smzbyqcuuq .gt_title {
   color: #333333;
-  font-size: 125%;
+  font-size: 12px;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1837,7 +1748,7 @@ html {
 #smzbyqcuuq .gt_subtitle {
   color: #333333;
   font-size: 10px;
-  font-weight: initial;
+  font-weight: lighter;
   padding-top: 0;
   padding-bottom: 4px;
   border-top-color: #FFFFFF;
@@ -1855,8 +1766,8 @@ html {
   border-top-width: 3px;
   border-top-color: transparent;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   border-left-style: none;
   border-left-width: 1px;
   border-left-color: #D3D3D3;
@@ -1907,8 +1818,8 @@ html {
 
 #smzbyqcuuq .gt_column_spanner {
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   vertical-align: bottom;
   padding-top: 5px;
   padding-bottom: 6px;
@@ -2081,7 +1992,7 @@ html {
 }
 
 #smzbyqcuuq .gt_sourcenote {
-  font-size: 12px;
+  font-size: 90%;
   padding: 4px;
 }
 
@@ -2137,17 +2048,17 @@ html {
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Sydney_Swans_Logo_2020.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Sydney_Swans_Logo_2020.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Isaac Heeney</td>
       <td class="gt_row gt_right" style="background-color: #80DF7C; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">3</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Sydney_Swans_Logo_2020.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Sydney_Swans_Logo_2020.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Luke Parker</td>
       <td class="gt_row gt_right" style="background-color: #C3F0BD; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">2</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Sydney_Swans_Logo_2020.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Sydney_Swans_Logo_2020.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Josh P. Kennedy</td>
       <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">1</td>
     </tr>
@@ -2171,13 +2082,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
   width: auto;
   border-top-style: solid;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-top-color: transparent;
   border-right-style: none;
   border-right-width: 2px;
@@ -2204,7 +2115,7 @@ html {
 
 #gzehxlxrot .gt_title {
   color: #333333;
-  font-size: 125%;
+  font-size: 12px;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2215,7 +2126,7 @@ html {
 #gzehxlxrot .gt_subtitle {
   color: #333333;
   font-size: 10px;
-  font-weight: initial;
+  font-weight: lighter;
   padding-top: 0;
   padding-bottom: 4px;
   border-top-color: #FFFFFF;
@@ -2233,8 +2144,8 @@ html {
   border-top-width: 3px;
   border-top-color: transparent;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   border-left-style: none;
   border-left-width: 1px;
   border-left-color: #D3D3D3;
@@ -2285,8 +2196,8 @@ html {
 
 #gzehxlxrot .gt_column_spanner {
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   vertical-align: bottom;
   padding-top: 5px;
   padding-bottom: 6px;
@@ -2459,7 +2370,7 @@ html {
 }
 
 #gzehxlxrot .gt_sourcenote {
-  font-size: 12px;
+  font-size: 90%;
   padding: 4px;
 }
 
@@ -2515,17 +2426,17 @@ html {
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/0/07/GWS_Giants_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/0/07/GWS_Giants_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Harry Perryman</td>
       <td class="gt_row gt_right" style="background-color: #80DF7C; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">3</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Geelong_Cats_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Geelong_Cats_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Mitch Duncan</td>
       <td class="gt_row gt_right" style="background-color: #C3F0BD; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">2</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/0/07/GWS_Giants_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/0/07/GWS_Giants_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Toby Greene</td>
       <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">1</td>
     </tr>
@@ -2549,13 +2460,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
   width: auto;
   border-top-style: solid;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-top-color: transparent;
   border-right-style: none;
   border-right-width: 2px;
@@ -2582,7 +2493,7 @@ html {
 
 #cmlivqizip .gt_title {
   color: #333333;
-  font-size: 125%;
+  font-size: 12px;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2593,7 +2504,7 @@ html {
 #cmlivqizip .gt_subtitle {
   color: #333333;
   font-size: 10px;
-  font-weight: initial;
+  font-weight: lighter;
   padding-top: 0;
   padding-bottom: 4px;
   border-top-color: #FFFFFF;
@@ -2611,8 +2522,8 @@ html {
   border-top-width: 3px;
   border-top-color: transparent;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   border-left-style: none;
   border-left-width: 1px;
   border-left-color: #D3D3D3;
@@ -2663,8 +2574,8 @@ html {
 
 #cmlivqizip .gt_column_spanner {
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   vertical-align: bottom;
   padding-top: 5px;
   padding-bottom: 6px;
@@ -2837,7 +2748,7 @@ html {
 }
 
 #cmlivqizip .gt_sourcenote {
-  font-size: 12px;
+  font-size: 90%;
   padding: 4px;
 }
 
@@ -2893,17 +2804,17 @@ html {
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/36/Port_Adelaide_Football_Club_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/36/Port_Adelaide_Football_Club_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Travis Boak</td>
       <td class="gt_row gt_right" style="background-color: #80DF7C; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">3</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/36/Port_Adelaide_Football_Club_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/36/Port_Adelaide_Football_Club_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Tom Rockliff</td>
       <td class="gt_row gt_right" style="background-color: #C3F0BD; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">2</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/36/Port_Adelaide_Football_Club_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/3/36/Port_Adelaide_Football_Club_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Connor Rozee</td>
       <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">1</td>
     </tr>
@@ -2931,13 +2842,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
   width: auto;
   border-top-style: solid;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-top-color: transparent;
   border-right-style: none;
   border-right-width: 2px;
@@ -2964,7 +2875,7 @@ html {
 
 #exqxxzalta .gt_title {
   color: #333333;
-  font-size: 125%;
+  font-size: 12px;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2975,7 +2886,7 @@ html {
 #exqxxzalta .gt_subtitle {
   color: #333333;
   font-size: 10px;
-  font-weight: initial;
+  font-weight: lighter;
   padding-top: 0;
   padding-bottom: 4px;
   border-top-color: #FFFFFF;
@@ -2993,8 +2904,8 @@ html {
   border-top-width: 3px;
   border-top-color: transparent;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   border-left-style: none;
   border-left-width: 1px;
   border-left-color: #D3D3D3;
@@ -3045,8 +2956,8 @@ html {
 
 #exqxxzalta .gt_column_spanner {
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   vertical-align: bottom;
   padding-top: 5px;
   padding-bottom: 6px;
@@ -3219,7 +3130,7 @@ html {
 }
 
 #exqxxzalta .gt_sourcenote {
-  font-size: 12px;
+  font-size: 90%;
   padding: 4px;
 }
 
@@ -3275,17 +3186,17 @@ html {
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/f/fc/North_Melbourne_FC_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/f/fc/North_Melbourne_FC_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Ben Cunnington</td>
       <td class="gt_row gt_right" style="background-color: #80DF7C; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">3</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/f/fc/North_Melbourne_FC_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/f/fc/North_Melbourne_FC_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Jared Polec</td>
       <td class="gt_row gt_right" style="background-color: #C3F0BD; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">2</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/5/58/St_Kilda_FC_logo.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/5/58/St_Kilda_FC_logo.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Zak Jones</td>
       <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">1</td>
     </tr>
@@ -3309,13 +3220,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
   width: auto;
   border-top-style: solid;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-top-color: transparent;
   border-right-style: none;
   border-right-width: 2px;
@@ -3342,7 +3253,7 @@ html {
 
 #qphyfsidli .gt_title {
   color: #333333;
-  font-size: 125%;
+  font-size: 12px;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3353,7 +3264,7 @@ html {
 #qphyfsidli .gt_subtitle {
   color: #333333;
   font-size: 10px;
-  font-weight: initial;
+  font-weight: lighter;
   padding-top: 0;
   padding-bottom: 4px;
   border-top-color: #FFFFFF;
@@ -3371,8 +3282,8 @@ html {
   border-top-width: 3px;
   border-top-color: transparent;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   border-left-style: none;
   border-left-width: 1px;
   border-left-color: #D3D3D3;
@@ -3423,8 +3334,8 @@ html {
 
 #qphyfsidli .gt_column_spanner {
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   vertical-align: bottom;
   padding-top: 5px;
   padding-bottom: 6px;
@@ -3597,7 +3508,7 @@ html {
 }
 
 #qphyfsidli .gt_sourcenote {
-  font-size: 12px;
+  font-size: 90%;
   padding: 4px;
 }
 
@@ -3653,17 +3564,17 @@ html {
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/6/62/Hawthorn-football-club-brand.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/6/62/Hawthorn-football-club-brand.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Chad Wingard</td>
       <td class="gt_row gt_right" style="background-color: #80DF7C; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">3</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/c/c7/Brisbane_Lions_logo_2010.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/c/c7/Brisbane_Lions_logo_2010.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Lachie Neale</td>
       <td class="gt_row gt_right" style="background-color: #C3F0BD; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">2</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/6/62/Hawthorn-football-club-brand.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/6/62/Hawthorn-football-club-brand.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Shaun Burgoyne</td>
       <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">1</td>
     </tr>
@@ -3687,13 +3598,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
   width: auto;
   border-top-style: solid;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-top-color: transparent;
   border-right-style: none;
   border-right-width: 2px;
@@ -3720,7 +3631,7 @@ html {
 
 #ahzguehngf .gt_title {
   color: #333333;
-  font-size: 125%;
+  font-size: 12px;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3731,7 +3642,7 @@ html {
 #ahzguehngf .gt_subtitle {
   color: #333333;
   font-size: 10px;
-  font-weight: initial;
+  font-weight: lighter;
   padding-top: 0;
   padding-bottom: 4px;
   border-top-color: #FFFFFF;
@@ -3749,8 +3660,8 @@ html {
   border-top-width: 3px;
   border-top-color: transparent;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   border-left-style: none;
   border-left-width: 1px;
   border-left-color: #D3D3D3;
@@ -3801,8 +3712,8 @@ html {
 
 #ahzguehngf .gt_column_spanner {
   border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
   vertical-align: bottom;
   padding-top: 5px;
   padding-bottom: 6px;
@@ -3975,7 +3886,7 @@ html {
 }
 
 #ahzguehngf .gt_sourcenote {
-  font-size: 12px;
+  font-size: 90%;
   padding: 4px;
 }
 
@@ -4031,17 +3942,17 @@ html {
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/4/4e/Melbournefc.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/4/4e/Melbournefc.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Jack Viney</td>
       <td class="gt_row gt_right" style="background-color: #80DF7C; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">3</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/West_Coast_Eagles_logo_2017.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/West_Coast_Eagles_logo_2017.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Andrew Gaff</td>
       <td class="gt_row gt_right" style="background-color: #C3F0BD; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">2</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/West_Coast_Eagles_logo_2017.svg" style="height:25px;"></td>
+      <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;"><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/West_Coast_Eagles_logo_2017.svg" style="height:20px;"></td>
       <td class="gt_row gt_left" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">Liam Ryan</td>
       <td class="gt_row gt_right" style="background-color: #FFFFFF; color: #000000; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent;">1</td>
     </tr>
