@@ -1,0 +1,158 @@
+---
+title: Predicting Charlie.
+author: ''
+date: '2021-03-07'
+slug: predicting-charlie
+categories: []
+tags: 
+  - Sport
+subtitle: ''
+summary: 'A projection system that creates a probabilistic forecast of what each AFL player might poll in the Brownlow Medal.'
+authors: []
+lastmod: '2021-03-07T18:51:47+11:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: true
+projects: []
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(gt)
+load("Z:/My Documents/GitHub/test_blogdown/content/project/2021-03-07-predicting-charlie/index_cache/html/workspace.RData")
+```
+
+<style type="text/css">
+  body{
+  font-size: 9pt;
+}
+</style>
+
+At its core, our brownlow medal model makes a probabilistic forecast of how many brownlow votes each player in each game of the season may get. Player attributes and in game statistics are passed to the model, which is a based on a [random forest](https://en.wikipedia.org/wiki/Random_forest) algorithm, and computes probabilities of 3 votes, 2 votes, 1 vote and no votes for each player. To account for the fact that certain players do not poll well (despite having good statistical games), the model applies a MERRET factor. This is defined as a weight that is applied to each players chance of getting a vote. Named after Zach Merrett, who churns out good statistical games but is not rewarded with votes, the model will punish those players who rack up possessions but who do not have a material impact on the outcome of the game (in the eyes of the umpires).  
+
+<body>
+
+<style>
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+</style>
+
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Top 20 Player Totals')" id="defaultOpen">Top 20 Player Totals</button>
+  <button class="tablinks" onclick="openCity(event, 'Game By Game Predictions')">Game By Game Predictions</button>
+</div>
+
+<div id="Top 20 Player Totals" class="tabcontent">
+<p>
+```{r, echo=FALSE}
+top15
+```
+</p>
+</div>
+
+<div id="Game By Game Predictions" class="tabcontent">
+<p>
+
+### Round 1 2020
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[1]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[2]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[3]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[4]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[5]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[6]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[7]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[8]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[9]]
+```
+</div>
+
+</div>
+
+</p> 
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+
+
+
+
+
+
