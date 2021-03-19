@@ -42,22 +42,24 @@ At its core, our brownlow medal model makes a probabilistic forecast of how many
 </style>
 
 
-
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Top 20 Player Totals')" id="defaultOpen">Top 20 Player Totals</button>
   <button class="tablinks" onclick="openCity(event, 'Game By Game Predictions')">Game By Game Predictions</button>
 </div>
 
-<div id="Top 20 Player Totals" class="tabcontent">
+<div id="Top 15 Player Totals" class="tabcontent">
 <p>
-```{r, echo=FALSE}
+```{r, message=FALSE, echo=FALSE, warning=FALSE}
 top15
 ```
 </p>
 </div>
 
+
 <div id="Game By Game Predictions" class="tabcontent">
 <p>
+
+Our game to game predictions show the top 3 players who are most likely to get 3 votes in each game of the season.
 
 ## Round 1 2020
 ____________________________________________________________________________________
@@ -128,8 +130,1182 @@ gbg[[5]][[9]]
 
 </div>
 
-</p> 
+## Round 2 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[10]]
+```
 </div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[11]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[12]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[13]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[14]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[15]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[16]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[17]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[18]]
+```
+</div>
+
+</div>
+
+
+## Round 3 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[19]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[20]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[21]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[22]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[23]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[24]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[25]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[26]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[27]]
+```
+</div>
+
+</div>
+
+## Round 4 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[28]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[29]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[30]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[31]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[32]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[33]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[34]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[35]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[36]]
+```
+</div>
+
+</div>
+
+
+## Round 5 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[37]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[38]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[39]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[40]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[41]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[42]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[43]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[44]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[45]]
+```
+</div>
+
+</div>
+
+## Round 6 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[46]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[47]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[48]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[49]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[50]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[51]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[52]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[53]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[54]]
+```
+</div>
+
+</div>
+
+## Round 7 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[55]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[56]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[57]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[58]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[59]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[60]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[61]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[62]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[63]]
+```
+</div>
+
+</div>
+
+## Round 8 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[64]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[65]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[66]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[67]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[68]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[69]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[70]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[71]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[72]]
+```
+</div>
+
+</div>
+
+## Round 9 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[64]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[65]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[66]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[67]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[68]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[69]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[70]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[71]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[72]]
+```
+</div>
+
+</div>
+
+## Round 10 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[73]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[74]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[75]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[76]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[77]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[78]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[79]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[80]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[81]]
+```
+</div>
+
+</div>
+
+## Round 11 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[82]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[83]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[84]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[85]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[86]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[87]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[88]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[89]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[90]]
+```
+</div>
+
+</div>
+
+## Round 12 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[91]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[92]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[93]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[94]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[95]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[96]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[97]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[98]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[99]]
+```
+</div>
+
+</div>
+
+## Round 13 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[100]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[101]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[102]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[103]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[104]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[105]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[106]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[107]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[108]]
+```
+</div>
+
+</div>
+
+## Round 14 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[109]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[110]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[111]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[112]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[113]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[114]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[115]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[116]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[117]]
+```
+</div>
+
+</div>
+
+## Round 15 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[118]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[119]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[120]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[121]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[122]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[123]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[124]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[125]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[126]]
+```
+</div>
+
+</div>
+
+## Round 16 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[127]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[128]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[129]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[130]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[131]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[132]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[133]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[134]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[135]]
+```
+</div>
+
+</div>
+
+## Round 17 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[136]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[137]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[138]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[139]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[140]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[141]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[142]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[143]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[144]]
+```
+</div>
+
+</div>
+
+## Round 18 2020
+____________________________________________________________________________________
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[145]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[146]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[147]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[148]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[149]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[150]]
+```
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[151]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[152]]
+```
+</div>
+  
+<div class = "col-md-4">
+```{r, message=FALSE, echo=FALSE}
+gbg[[5]][[153]]
+```
+</div>
+
+</div>
+
+</p> 
 
 <script>
 function openCity(evt, cityName) {
